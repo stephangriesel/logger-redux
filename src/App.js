@@ -5,6 +5,7 @@ import './App.css';
 
 import AddBtn from './components/layout/AddBtn';
 import AddLogModal from './components/logs/AddLogModal';
+import EditLogModal from './components/logs/EditLogModal';
 import SearchBar from './components/layout/SearchBar';
 import Logs from './components/logs/Logs';
 
@@ -20,6 +21,7 @@ const App = () => {
       <div className="container">
         <AddBtn />
         <AddLogModal />
+        <EditLogModal />
         <Logs />
       </div>
     </Fragment>
