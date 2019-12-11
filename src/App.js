@@ -9,6 +9,8 @@ import EditLogModal from './components/logs/EditLogModal';
 import AddTechModal from './components/techs/AddTechModal';
 import SearchBar from './components/layout/SearchBar';
 import Logs from './components/logs/Logs';
+import techListModal from './components/techs/TechListModal';
+import TechListModal from './components/techs/TechListModal';
 
 
 const App = () => {
@@ -24,6 +26,7 @@ const App = () => {
         <AddLogModal />
         <EditLogModal />
         <AddTechModal />
+        <TechListModal />
         <Logs />
       </div>
     </Fragment>
